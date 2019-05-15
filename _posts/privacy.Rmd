@@ -1,0 +1,64 @@
+---
+title: "Privacy and Security in Data Science"
+author: "Akansha Vashisth"
+date: '2019-05-14'
+output: html_document:
+    theme: flatly
+    highlight: kate
+    css: ../css/blog.css
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> “Remember, with great power, comes great responsibility.” – Peter Parker/Spider-Man
+
+My roommate introduced me to her friend last week. This friend was really good looking and the obvious question to ask was "Is he single?", apparently, he is single but (my bad) he is gay. Meeting a group of people, you do not introduce them as your straight or gay friends. That could be offensive. We are living in the 21st century and still learning to be respectful to all the people in our society, so how can you expect an infant AI system to be respectful at it's early stages. The models we train are based on real-world data. Apparently, our real world is not the ideal world in which people speak, write or communicate in a respectful manner to other human beings. Since the training data is biased, it leads to some social consequences. Regardless of how much testing is done in the development stage, it is impossible to predict all the potential harms that may occur when an AI system goes live.
+
+The risks involved could be huge and daunting. We live a world with different religions, countries, races, and genders. Any sort of discrimination and negative communications may trigger multiple forms of risks. The goal of any data scientist is to minimize the risk. Some of the measures that we could take into account for minimizing the risk are:
+
+-   Use a broad dataset with a variety of groups.
+-   Regressly test on all the groups.
+-   Try to simulate data for groups for where the data is less/none.
+-   Test multiple times before expanding the use of the technologies.
+-   Anticipate possible risks and think about edge cases.
+
+After testing on all the possible test cases, there should a legal consent form in a place that covers:
+
+-   Personal Information Protection and Electronic Documents Act (PIPEDA) standards.
+-   Clear terms and conditions of usage.
+-   Protocols of the technology.
+-   Considers all the sensitive groups of society.
+-   Human rights protocols.
+
+Given the data scientists and the companies test their technologies on all possible test cases, the society needs to be bare the responsibility of using the technology for good. Technology is developed for human good and moving forward we need to be receptive for all the new advanced AI systems being developed.
+
+As we move forward with technology, there are many situations that we may encounter, for which there is no legal norm yet. For example, when anyone purchases Amazon Alexa, a consent form needs to be signed which states that the device will record the voices in the respective surroundings. Signing this consent form means that the user does not mind being recorded. There have been many cases where the device recorded murder suspects and cases where the device called 911 when asked by the elderly users in a medical emergency.
+
+An interesting and debatable situation is when the guests visit users owning an Alexa. These guests might not want to be recorded, they never gave their consent. This might create an ethically controversial situation for the users. One way the company can act on this situation is to detect a new voice and send a consent form and the other solution could be to shut down Alexa.
+
+At the end, technology exists to empower humans and we need to embrace the risks and power with which it comes. I think a decent error rate of below 1% should be acceptable.
+<style>
+.footer {
+width: 100%;
+bottom: 0pt;
+padding: 10px 0;
+text-align: center;
+border: none;
+}
+.love {
+color: red;
+}
+.footer a {
+text-decoration: none;
+margin: 0;
+}
+</style>
+
+<footer class="footer">
+<p>&copy; Akansha</p>
+<p>Built with Jekyll and <span class="love">&#10084;</span> by <a href="http://alexlockhart.ca">Alex Lockhart</a> & <a href="https://github.com/nrandecker/particle">Nathan Randecker</a></p>
+</footer>
